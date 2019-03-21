@@ -1,217 +1,175 @@
-<!DOCTYPE html>
-<!--[if lt IE 9]><html class="no-js lt-ie9" lang="en" dir="ltr"><![endif]-->
-<!--[if gt IE 8]><!-->
+<!DOCTYPE html><!--[if lt IE 9]><html class="no-js lt-ie9" lang="en" dir="ltr"><![endif]--><!--[if gt IE 8]><!-->
 <html class="no-js" lang="en" dir="ltr">
 <!--<![endif]-->
-
 <head>
-  <meta charset="utf-8">
-  <!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
+<meta charset="utf-8">
+<!-- Web Experience Toolkit (WET) / Boîte à outils de l'expérience Web (BOEW)
 		wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licence-fr.html -->
-  <title>User experience design - Information architecture</title>
-  <meta content="width=device-width,initial-scale=1" name="viewport">
-  <meta name="description" content="">
-  <!--[if gte IE 9 | !IE ]><!-->
-  <link href="images/favicon-e.ico" rel="icon" type="image/x-icon">
-  <link rel="stylesheet" href="https://wet-boew.github.io/themes-dist/GCWeb/css/theme.min.css">
-  <!--<![endif]-->
-  <!--[if lt IE 9]>
+<title>User experience design - Information architecture</title>
+<meta content="width=device-width,initial-scale=1" name="viewport">
+<meta name="description" content="">
+<!--[if gte IE 9 | !IE ]><!-->
+<link href="images/favicon-e.ico" rel="icon" type="image/x-icon">
+<link rel="stylesheet" href="https://wet-boew.github.io/themes-dist/GCWeb/css/theme.min.css">
+<!--<![endif]-->
+<!--[if lt IE 9]>
 		<link href="images/favicon-e.ico" rel="shortcut icon" />
 		
 		<link rel="stylesheet" href="https://wet-boew.github.io/themes-dist/GCWeb/css/ie8-theme.min.css" />
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script src="https://wet-boew.github.io/themes-dist/GCWeb/wet-boew/js/ie8-wet-boew.min.js"></script>
 		<![endif]-->
-  <!--[if lte IE 9]>
+<!--[if lte IE 9]>
 <![endif]-->
-  <noscript>
-    <link rel="stylesheet" href="https://wet-boew.github.io/themes-dist/GCWeb/wet-boew/css/noscript.min.css" />
-  </noscript>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
-    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/new.css" />
+<noscript>
+<link rel="stylesheet" href="https://wet-boew.github.io/themes-dist/GCWeb/wet-boew/css/noscript.min.css" />
+</noscript>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<link rel="stylesheet" href="css/new.css" />
 </head>
-
-<body vocab="https://schema.org/" typeof="WebPage">
-  <ul id="wb-tphp">
-    <li class="wb-slc"> <a class="wb-sl" href="#wb-cont">Skip to main content</a> </li>
-    <li class="wb-slc"> <a class="wb-sl" href="#wb-info">Skip to "About government"</a> </li>
-  </ul>
-  <header>
-    <div id="wb-bnr" class="container">
-      <section id="wb-lng" class="text-right">
-        <h2 class="wb-inv">Language selection</h2>
-        <div class="row">
-          <div class="col-md-12">
-            <ul class="list-inline margin-bottom-none">
-              <li><a lang="fr" href="disciplines7-f.html">Français</a></li>
-            </ul>
-          </div>
-        </div>
-      </section>
+<body  vocab="https://schema.org/" typeof="WebPage">
+<ul id="wb-tphp">
+  <li class="wb-slc"> <a class="wb-sl" href="#wb-cont">Skip to main content</a> </li>
+  
+</ul>
+<header>
+  <div id="wb-bnr" class="container">
+    <section id="wb-lng" class="text-right">
+      <h2 class="wb-inv">Language selection</h2>
       <div class="row">
-        <div class="brand col-xs-5 col-md-4"> <a href="index-e.html"><img src="images/logo-e.png" alt=""><span
-              class="wb-inv">Information architecture</span></a> </div>
-      </div>
-    </div>
-    <nav id="wb-bc" property="breadcrumb">
-      <h2>You are here:</h2>
-      <div class="container">
-        <ol class="breadcrumb">
-          <li><a href="index-e.html">Home</a></li>
-          <li><a href="disciplines-e.html">Related disciplines and fields of study</a></li>
-        </ol>
-      </div>
-    </nav>
-  </header>
-  <main property="mainContentOfPage" class="container">
-    <h1 property="name" id="wb-cont">User experience design</h1>
-    <div class="row">
-      <div class="col-md-8">
-        <p class="small"><span class="far fa-clock"></span> Read time: 3 minutes</p>
-        <h2 class="h4">On this page</h2>
-        <ul>
-          <li><a href="#h_1">Overview</a></li>
-          <li><a href="#h_2">How this affects IA</a></li>
-          <li><a href="#h_3">Take aways</a></li>
-        </ul>
-        <h2 id="h_1">Overview</h2>
-        <p>User experience is a tricky term as it can be used both broadly and narrowly:</p>
-        <ul class="lst-spcd">
-          <li>Some use UX to refer to the entire design process which focuses on improving the user experience.</li>
-          <li>Others use UX to refer to user research and/or usability testing, and/or the interaction design aspects of
-            the interface.</li>
-        </ul>
-        <p>IA is one part of the design process and so it's often folded under the UX umbrella. </p>
-        <p>Even though it's only one part among a number of other pieces such as design research, usability testing,
-          interface and interaction design, IA is the foundation for good design.</p>
-        <blockquote class="mrgn-lft-lg">
-          <p>Information Architects work to create usable content structures out of complex sets of information. They do
-            this using plenty of user-centered design methods: usability tests, persona research and creation, and user
-            flow diagrams (to name only a few). [...] UX builds on the foundation that IA provides, aiming to take that
-            experience to the next level, both creatively and emotionally.</p>
-          <footer class="text-right">Darren Northcott<br>
-            <cite><a href="https://www.uxbooth.com/articles/the-difference-between-ia-and-ux-design/
-">The Difference Between Information Architecture and UX Design, 2012</a></cite></footer>
-        </blockquote>
-        <blockquote class="mrgn-lft-lg">
-          <p>IA forms a skeleton of any design project. Visual elements, functionality, interaction, and navigation are
-            built according to the information architecture principles. The thing is that even compelling content
-            elements and powerful UI design can fail without appropriate IA. Unorganized content makes navigation
-            difficult and inexplicit, so the users can easily get lost and feel annoyed. If the users face first bad
-            interaction, they may not give the second chance to your product.</p>
-          <footer class="text-right">Tubik Studio<br>
-            <cite><a href="https://uxplanet.org/information-architecture-basics-for-designers-b5d43df62e20
-">Information Architecture. Basics for Designers, 2017</a></cite></footer>
-        </blockquote>
-        <h2 id="h_2">How this affects IA</h2>
-        <p> The ambiguity of the term UX can create problems for IA in the following ways: </p>
-        <ul class="lst-spcd">
-          <li>An organization/project might bring in a UX person or a team full of UX professionals to work on a design
-            project assuming that IA is be part of the expertise set when it isn’t</li>
-          <li>The popularity of UX as a term can cause decision-makers to forget that IA is an essential part of the
-            design process</li>
-        </ul>
-        <p>Additionally, UX testing can unintentionally introduce bias, which could affect the recommendations made to
-          the site IA or content IA.</p>
-        <blockquote class="mrgn-lft-lg">
-          <p>The items included in card sort studies affect results. Avoid bias by choosing items that proportionately
-            represent your offerings.</p>
-          <footer class="text-right">Nielsen Norman Group<br>
-            <cite><a href="https://www.nngroup.com/videos/bias-card-sorting/">How to Avoid Bias in Card Sorting,
-                2017</a></cite></footer>
-        </blockquote>
-        <blockquote class="mrgn-lft-lg">
-          <p>Writing tasks for a usability test is not easy. As any experienced usability researcher can tell you, how
-            the task is written directly impacts the success of the study. If you give study participants bad
-            instructions, you can bias them and completely change the outcome of the study. At best, you won’t learn
-            that much, and the study won’t reflect real-world use very well. At worst, your “findings” will be directly
-            misleading and cause you to make the product worse, rather than better.</p>
-          <footer class="text-right">Nielsen Norman Group<br>
-            <cite><a href="https://www.nngroup.com/articles/better-usability-tasks/">Write Better Qualitative Usability
-                Tasks: Top 10 Mistakes to Avoid, 2017</a></cite></footer>
-        </blockquote>
-        <blockquote class="mrgn-lft-lg">
-          <p>The false-consensus effect refers to people’s tendency to assume that others share their beliefs and will
-            behave similarly in a given context. This assumption can lead UX professionals to make the wrong design
-            decisions. Acknowledge your vulnerability and establish checks. </p>
-          <footer class="text-right">Nielsen Norman Group<br>
-            <cite><a href="https://www.nngroup.com/videos/false-consensus-effect/">The False-Consensus Effect: You Are
-                Not the User, 2018</a></cite></footer>
-        </blockquote>
-        <blockquote class="mrgn-lft-lg">
-          <p>Designers are vulnerable to the same cognitive biases as users. The context in which you present a problem
-            can bias your design choices. </p>
-          <footer class="text-right">Nielsen Norman Group<br>
-            <cite><a href="https://www.nngroup.com/articles/decision-framing-cognitive-bias-ux-pros/">Decision Frames:
-                How Cognitive Biases Affect UX Practitioners, 2016</a></cite></footer>
-        </blockquote>
-        <h2 id="h_3">Take aways</h2>
-        <ul class="fa-ul lst-spcd">
-          <li><span class="fas fa-li fa-check text-success"></span>When specific disciplines and expertise like IA,
-            become absorbed by ambiguous terms like UX, digital projects are in danger of building on shaky ground,
-            without proper structure and lasting foundation.</li>
-          <li><span class="fas fa-li fa-check text-success"></span>Without creating separate space for IA in
-            conversations, staffing and workflows, a UX project might collect all the right research, ideate possible
-            solutions and even test them with card sorting, but fail to consider perspectives and principles that
-            connect disparate systems of information in meaningful ways.</li>
-          <li><span class="fas fa-li fa-check text-success"></span>It's not enough to just identify the language of your
-            users through research and card sorting and then build a system out of it. In order to create a coherent
-            system, an information architect needs to analyze this data and make labelling and structural choices and
-            decisions that reflect the content of the whole system (something a user is never able to see, as they are
-            only given a small glimpse into its contents).</li>
-          <li><span class="fas fa-li fa-check text-success"></span>Users should have a voice, but you cannot build
-            coherent systems based on a narrow view of a problem by a user.</li>
-          <li><span class="fas fa-li fa-check text-success"></span>You need perspective which should be applied through
-            IA.</li>
-        </ul>
-        <nav role="navigation">
-          <h2 class="wb-inv">Document navigation</h2>
-          <ul class="pager mrgn-tp-xl">
-            <li class="previous"> <a href="disciplines6-e.html" rel="prev">Information technology systems</a> </li>
-            <li class="next"> <a href="resources-e.html" rel="next">Resources</a> </li>
+        <div class="col-md-12">
+          <ul class="list-inline margin-bottom-none">
+            <li><a lang="fr" href="disciplines7-f.html">Français</a></li>
           </ul>
-        </nav>
+        </div>
       </div>
-      <div class="col-md-4">
-        <h2 class="wb-inv">All course sections</h2>
-        <ol class="vertical-steps">
-          <li class="completed"><a href="purpose-e.html">Purpose</a></li>
-          <li class="completed"><a href="foundations-e.html">Foundations</a></li>
-          <li class="completed"><a href="elements-e.html">Elements</a>
-          <li class="completed"><a href="principles-e.html">Principles</a></li>
-          <li class="completed"><a href="disciplines-e.html">Related disciplines and fields of study</a>
-            <ol>
-              <li class="completed"><a href="disciplines1-e.html">Library science</a></li>
-              <li class="completed"><a href="disciplines2-e.html">Cognitive psychology</a></li>
-              <li class="completed"><a href="disciplines3-e.html">Architecture</a></li>
-              <li class="completed"><a href="disciplines7-e.html">Marketing and communications</a></li>
-              <li class="completed"><a href="disciplines5-e.html">Learning and performance support</a></li>
-              <li class="completed"><a href="disciplines6-e.html">Information technology systems</a></li>
-              <li class="active"><span>User experience design</span></li>
-            </ol>
-          </li>
-          <li><a href="resources-e.html">Resources</a></li>
-        </ol>
-      </div>
+    </section>
+    <div class="row">
+      <div class="brand col-xs-5 col-md-4"> <a href="index-e.html"><img src="images/logo-e.png" alt=""><span class="wb-inv">Information architecture</span></a> </div>
     </div>
-    <dl id="wb-dtmd">
-      <dt>Date modified:&#32;</dt>
-      <dd>
-        <time property="dateModified">2019-02-22</time>
-      </dd>
-    </dl>
-  </main>
+  </div>
+  <nav id="wb-bc" property="breadcrumb">
+    <h2>You are here:</h2>
+    <div class="container">
+      <ol class="breadcrumb">
+        <li><a href="index-e.html">Home</a></li>
+        <li><a href="disciplines-e.html">Related disciplines and fields of study</a></li>
+      </ol>
+    </div>
+  </nav>
+</header>
+<main property="mainContentOfPage" class="container">
+  <h1 property="name" id="wb-cont">User experience design</h1>
+  <div class="row">
+    <div class="col-md-8">
+      <p class="small"><span class="far fa-clock"></span> Read time: 3 minutes</p>
+      <h2 class="h4">On this page</h2>
+      <ul>
+        <li><a href="#h_1">Overview</a></li>
+        <li><a href="#h_2">How this affects IA</a></li>
+        <li><a href="#h_3">Take aways</a></li>
+      </ul>
+      <h2 id="h_1">Overview</h2>
+      <p>User experience is a tricky term as it can be used both broadly and narrowly:</p>
+      <ul class="lst-spcd">
+        <li>Some use UX to refer to the entire design process which focuses on improving the user experience.</li>
+        <li>Others use UX to refer to user research and/or usability testing, and/or the interaction design aspects of the interface.</li>
+      </ul>
+      <p>IA is one part of the design process and so it's often folded under the UX umbrella. </p>
+      <p>Even though it's only one part among a number of other pieces such as design research, usability testing, interface and interaction design, IA is the foundation for good design.</p>
+      <blockquote class="mrgn-lft-lg">
+        <p>Information Architects work to create usable content structures out of complex sets of information. They do this using plenty of user-centered design methods: usability tests, persona research and creation, and user flow diagrams (to name only a few). [...] UX builds on the foundation that IA provides, aiming to take that experience to the next level, both creatively and emotionally.</p>
+        <footer class="text-right">Darren Northcott<br>
+          <cite><a href="https://www.uxbooth.com/articles/the-difference-between-ia-and-ux-design/
+">The Difference Between Information Architecture and UX Design, 2012</a></cite></footer>
+      </blockquote>
+      <blockquote class="mrgn-lft-lg">
+        <p>IA forms a skeleton of any design project. Visual elements, functionality, interaction, and navigation are built according to the information architecture principles. The thing is that even compelling content elements and powerful UI design can fail without appropriate IA. Unorganized content makes navigation difficult and inexplicit, so the users can easily get lost and feel annoyed. If the users face first bad interaction, they may not give the second chance to your product.</p>
+        <footer class="text-right">Tubik Studio<br>
+          <cite><a href="https://uxplanet.org/information-architecture-basics-for-designers-b5d43df62e20
+">Information Architecture. Basics for Designers, 2017</a></cite></footer>
+      </blockquote>
+      <h2 id="h_2">How this affects IA</h2>
+      <p> The ambiguity of the term UX can create problems for IA in the following ways: </p>
+      <ul class="lst-spcd">
+        <li>An organization/project might bring in a UX person or a team full of UX professionals to work on a design project assuming that IA is be part of the expertise set when it isn’t</li>
+        <li>The popularity of UX as a term can cause decision-makers to forget that IA is an essential part of the design process</li>
+      </ul>
+      <p>Additionally, UX testing can unintentionally introduce bias, which could affect the recommendations made to the site IA or content IA.</p>
+      <blockquote class="mrgn-lft-lg">
+        <p>The items included in card sort studies affect results. Avoid bias by choosing items that proportionately represent your offerings.</p>
+        <footer class="text-right">Nielsen Norman Group<br>
+          <cite><a href="https://www.nngroup.com/videos/bias-card-sorting/">How to Avoid Bias in Card Sorting, 2017</a></cite></footer>
+      </blockquote>
+      <blockquote class="mrgn-lft-lg">
+        <p>Writing tasks for a usability test is not easy. As any experienced usability researcher can tell you, how the task is written directly impacts the success of the study. If you give study participants bad instructions, you can bias them and completely change the outcome of the study. At best, you won’t learn that much, and the study won’t reflect real-world use very well. At worst, your “findings” will be directly misleading and cause you to make the product worse, rather than better.</p>
+        <footer class="text-right">Nielsen Norman Group<br>
+          <cite><a href="https://www.nngroup.com/articles/better-usability-tasks/">Write Better Qualitative Usability Tasks: Top 10 Mistakes to Avoid, 2017</a></cite></footer>
+      </blockquote>
+      <blockquote class="mrgn-lft-lg">
+        <p>The false-consensus effect refers to people’s tendency to assume that others share their beliefs and will behave similarly in a given context. This assumption can lead UX professionals to make the wrong design decisions. Acknowledge your vulnerability and establish checks. </p>
+        <footer class="text-right">Nielsen Norman Group<br>
+          <cite><a href="https://www.nngroup.com/videos/false-consensus-effect/">The False-Consensus Effect: You Are Not the User, 2018</a></cite></footer>
+      </blockquote>
+      <blockquote class="mrgn-lft-lg">
+        <p>Designers are vulnerable to the same cognitive biases as users. The context in which you present a problem can bias your design choices. </p>
+        <footer class="text-right">Nielsen Norman Group<br>
+          <cite><a href="https://www.nngroup.com/articles/decision-framing-cognitive-bias-ux-pros/">Decision Frames: How Cognitive Biases Affect UX Practitioners, 2016</a></cite></footer>
+      </blockquote>
+      <h2 id="h_3">Take aways</h2>
+      <ul class="fa-ul lst-spcd">
+        <li><span class="fas fa-li fa-check text-success"></span>When specific disciplines and expertise like IA, become absorbed by ambiguous terms like UX, digital projects are in danger of building on shaky ground, without proper structure and lasting foundation.</li>
+        <li><span class="fas fa-li fa-check text-success"></span>Without creating separate space for IA in conversations, staffing and workflows, a UX project might collect all the right research, ideate possible solutions and even test them with card sorting, but fail to consider perspectives and principles that connect disparate systems of information in meaningful ways.</li>
+        <li><span class="fas fa-li fa-check text-success"></span>It's not enough to just identify the language of your users through research and card sorting and then build a system out of it. In order to create a coherent system, an information architect needs to analyze this data and make labelling and structural choices and decisions that reflect the content of the whole system (something a user is never able to see, as they are only given a small glimpse into its contents).</li>
+        <li><span class="fas fa-li fa-check text-success"></span>Users should have a voice, but you cannot build coherent systems based on a narrow view of a problem by a user.</li>
+        <li><span class="fas fa-li fa-check text-success"></span>You need perspective which should be applied through IA.</li>
+      </ul>
+      <nav role="navigation">
+        <h2 class="wb-inv">Document navigation</h2>
+        <ul class="pager mrgn-tp-xl">
+          <li class="previous"> <a href="disciplines6-e.html" rel="prev">Information technology systems</a> </li>
+          <li class="next"> <a href="resources-e.html" rel="next">Resources</a> </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="col-md-4">
+      <h2 class="wb-inv">All course sections</h2>
+      <ol class="vertical-steps">
+        <li class="completed"><a href="purpose-e.html">Purpose</a></li>
+        <li class="completed"><a href="foundations-e.html">Foundations</a></li>
+        <li class="completed"><a href="elements-e.html">Elements</a>
+        <li class="completed"><a href="principles-e.html">Principles</a></li>
+        <li class="completed"><a href="disciplines-e.html">Related disciplines and fields of study</a>
+          <ol>
+            <li class="completed"><a href="disciplines1-e.html">Library science</a></li>
+            <li class="completed"><a href="disciplines2-e.html">Cognitive psychology</a></li>
+            <li class="completed"><a href="disciplines3-e.html">Architecture</a></li>
+            <li class="completed"><a href="disciplines7-e.html">Marketing and communications</a></li>
+            <li class="completed"><a href="disciplines5-e.html">Learning and performance support</a></li>
+            <li class="completed"><a href="disciplines6-e.html">Information technology systems</a></li>
+            <li class="active"><span>User experience design</span></li>
+          </ol>
+        </li>
+        <li><a href="resources-e.html">Resources</a></li>
+      </ol>
+    </div>
+  </div>
+  <dl id="wb-dtmd">
+    <dt>Date modified:&#32;</dt>
+    <dd>
+      <time property="dateModified">2019-02-22</time>
+    </dd>
+  </dl>
+</main>
 
-  <!--[if gte IE 9 | !IE ]><!-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
-  <script src="https://wet-boew.github.io/themes-dist/GCWeb/wet-boew/js/wet-boew.min.js"></script>
-  <!--<![endif]-->
-  <!--[if lt IE 9]>
+<!--[if gte IE 9 | !IE ]><!--> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script> 
+<script src="https://wet-boew.github.io/themes-dist/GCWeb/wet-boew/js/wet-boew.min.js"></script> 
+<!--<![endif]--> 
+<!--[if lt IE 9]>
 		<script src="https://wet-boew.github.io/themes-dist/GCWeb/wet-boew/js/ie8-wet-boew2.min.js"></script>
 		
-		<![endif]-->
-  <script src="https://wet-boew.github.io/themes-dist/GCWeb/js/theme.min.js"></script>
+		<![endif]--> 
+<script src="https://wet-boew.github.io/themes-dist/GCWeb/js/theme.min.js"></script>
 </body>
-
 </html>

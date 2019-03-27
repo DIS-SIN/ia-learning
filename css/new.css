@@ -393,3 +393,10 @@ header .brand img, header .brand object {
 main {
 	padding-bottom: 30px;
 }
+
+@media screen and (max-width:479px) {
+	#wb-lng {
+		float: none;
+		margin-top: 10px
+	}
+}
